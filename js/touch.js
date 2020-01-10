@@ -1,14 +1,8 @@
-/* ------------------------------------------------------------ *\
-|* ------------------------------------------------------------ *|
-|* classie.js
-|* https://github.com/desandro/classie/blob/master/classie.js
-|* ------------------------------------------------------------ *|
-\* ------------------------------------------------------------ */
+
 ( function( window ) {
 
 'use strict';
 
-// class helper functions from bonzo https://github.com/ded/bonzo
 
 function classReg( className ) {
   return new RegExp("(^|\\s+)" + className + "(\\s+|$)");
